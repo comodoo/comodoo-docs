@@ -107,5 +107,12 @@ git checkout -b blueprints origin/blueprints
     git pull upstream master
 ```
 
+4. Push the local changes of your fork to your remote fork
+
+```
+git push origin master
+git push --tags (this is whether the original repo added new tags or releases)
+```
+
 References:
 * GitHub workflow: https://help.github.com/articles/what-is-a-good-git-workflow/
