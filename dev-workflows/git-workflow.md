@@ -114,5 +114,25 @@ git push origin master
 git push --tags (this is whether the original repo added new tags or releases)
 ```
 
+### Generate a git patch for a specific commit
+
+```
+git format-patch -1 <sha>
+
+```
+
+For generating the patches from the topmost commits from a specific sha1 hash:
+
+```
+git format-patch -<n> <SHA1>
+```
+
+The last 10 patches from head in a single patch file:
+
+```
+git format-patch -10 HEAD --stdout > 0001-last-10-commits.patch
+```
+
 References:
 * GitHub workflow: https://help.github.com/articles/what-is-a-good-git-workflow/
+
