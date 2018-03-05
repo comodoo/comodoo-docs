@@ -135,4 +135,7 @@ git format-patch -10 HEAD --stdout > 0001-last-10-commits.patch
 
 References:
 * GitHub workflow: https://help.github.com/articles/what-is-a-good-git-workflow/
+* Linux Kernel giteveryday: https://www.kernel.org/pub/software/scm/git/docs/giteveryday.html
+* Kernel Hackers' Guide to Git: http://linux.yyz.us/git-howto.html
+* Kernel Site Git User Manual: https://www.kernel.org/pub/software/scm/git/docs/user-manual.html
 
