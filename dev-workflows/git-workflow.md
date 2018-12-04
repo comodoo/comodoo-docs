@@ -169,6 +169,17 @@ match commit B. Since you can permanently lose changes this way, you should
 always run git status before doing a hard reset to make sure your working
 directory is clean or that you're okay with losing your uncommitted changes.
 
+# Tags
+
+Creating a tag from master branch for frezzing the version.
+
+```
+git checkout master
+git tag -a v1.0.4 -m "Original stress version 1.0.4"
+git tag -l
+git push origin v1.0.4
+```
+
 References:
 * GitHub workflow: https://help.github.com/articles/what-is-a-good-git-workflow/
 * Linux Kernel giteveryday: https://www.kernel.org/pub/software/scm/git/docs/giteveryday.html
