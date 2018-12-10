@@ -180,6 +180,14 @@ git tag -l
 git push origin v1.0.4
 ```
 
+# Git Ignore Tips
+
+Check why a file is ignored:
+
+```
+git check-ignore --verbose gradle/wrapper/gradle-wrapper.jar
+```
+
 References:
 * GitHub workflow: https://help.github.com/articles/what-is-a-good-git-workflow/
 * Linux Kernel giteveryday: https://www.kernel.org/pub/software/scm/git/docs/giteveryday.html
