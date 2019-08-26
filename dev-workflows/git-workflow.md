@@ -187,6 +187,11 @@ Check why a file is ignored:
 ```
 git check-ignore --verbose gradle/wrapper/gradle-wrapper.jar
 ```
+# git checkout for Remote Branches
+```
+git checkout --track origin/my-remote-branch
+```
+
 
 References:
 * GitHub workflow: https://help.github.com/articles/what-is-a-good-git-workflow/
